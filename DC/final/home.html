@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deesign couture</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" >
+l</head>
+<body>
+   <section class="Header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+             <li><a href="http://127.0.0.1:5500/final/home.html">Home</a></li>
+             <li><a href="#">About Us</a></li>
+             <li><a href="http://127.0.0.1:5500/custom.html">Free Trial</a></li>
+             <li><a href="#">Contact Us</a></li>   
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"> </i>
+
+    </nav>
+    <div class="text-box">
+        <h1>Design Couture</h1>
+        <p>Now wear something that makes you comfortable,<br>
+            Design your own wardrobe.</p>
+            <a href="http://127.0.0.1:5500/final/Final%20project%20phase/login.html" class="hero-btn">Log In</a>
+           
+    </div>
+ </section>
+
+<!-----About----->
+<section class="About">
+    <h1>About Us</h1>
+    <p>we believe that clothing should be as unique as the individuals who wear them. Founded with a passion for creativity and personal expression, 
+        we've set out to revolutionize the way people approach fashion.</p>
+<div class="Row">
+<div class="About-col">
+    <h3>What do we do</h3>
+    <p> We Customise clothes for you according to your preferences so that you can use them for long term and can 
+        wear what you actually want to.</p>
+</div>
+<div class="About-col">
+    <h3>Our Purpose</h3>
+    <p> Our main focus is to allow users to create their outfit according to their 
+        own choices of length, fabric and designs.</p>
+</div>
+<div class="About-col">
+    <h3>Customization in</h3>
+    <p> You can customize your fabric, outfit designs, print, length, sleeves size,
+        color, tiedie and can try many styles.</p>
+
+</div>
+</div>
+</section>
+<!------our facilities----->
+<section class="Facilitiies">
+   <h1>Our Facilities</h1>
+   <p>We provide you freedom to wear what you want according to your comfort and freedom</p>
+<div class="Row">
+    <div class="Facilities-col">
+<img src="img1.jpeg">
+<div class="layer">
+    <h3>Pastel  color outfit</h3>
+</div>
+    </div>
+    <div class="Facilities-col">
+        <img src="img2.jpeg">
+        <div class="layer">
+            <h3>Selection of the material and more</h3>
+        </div>
+            </div>
+            <div class="Facilities-col">
+                <img src="img3.jpeg">
+                <div class="layer">
+                    <h3>customization</h3>
+                </div>
+                    </div>
+</div>
+</section>
+<!---------call to action----->
+<section class="cta">
+<h1>Join us to make your own collection <br> 
+    Time for some change</h1>
+<a href="" class="hero-btn"> Contact us</a>
+</section>
+<!---------footer----->
+<section class="footer">
+    <h4>Contact details</h4>
+    <p>Email id : abc@gmail.com<br>
+        </p>
+        <div class="icons">
+            <i class="fa fa-Facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+</section>
+
+ <!------javascript for toggle menu----->
+ <script>
+    var navlinks= document.getElementById("navlinks");
+    function ShowMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+ </script>
+</body>
+</html>
